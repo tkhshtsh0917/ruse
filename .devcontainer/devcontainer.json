@@ -1,7 +1,7 @@
 {
-	"name": "lldc",
+	"name": "ruse",
 	"dockerComposeFile": "docker-compose.yml",
-    "service": "devcontainer",
+    "service": "ruse virtual filesystem",
     "workspaceFolder": "/workspace",
     // Use this environment variable if you need to bind mount your local source code into a new container.
     "remoteEnv": {
@@ -22,9 +22,7 @@
                 "terminal.integrated.defaultProfile.linux": "bash"
 			},			
 			// Add the IDs of extensions you want installed when the container is created.
-			"extensions": [
-				"llvm-vs-code-extensions.vscode-clangd"
-			]
+			"extensions": []
 		}
 	}
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
