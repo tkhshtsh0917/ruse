@@ -1,7 +1,7 @@
 {
 	"name": "ruse",
 	"dockerComposeFile": "docker-compose.yml",
-    "service": "ruse virtual filesystem",
+    "service": "ruse",
     "workspaceFolder": "/workspace",
     // Use this environment variable if you need to bind mount your local source code into a new container.
     "remoteEnv": {
@@ -20,9 +20,7 @@
                     }
                 },
                 "terminal.integrated.defaultProfile.linux": "bash"
-			},			
-			// Add the IDs of extensions you want installed when the container is created.
-			"extensions": []
+			}
 		}
 	}
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
